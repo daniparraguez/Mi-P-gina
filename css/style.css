@@ -1,0 +1,91 @@
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+/* Fuentes */
+
+* {
+  font-family: 'Lato', Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/* Tipografías */
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.375rem;
+}
+h4 {
+  font-size: 1.125rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.875rem;
+}
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.font-light {
+  font-weight: 300;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-heavy {
+  font-weight: 700;
+}
+
+/*Resetear el navegador*/
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #DDDDDD;
+}
+header{
+	background-color: #008182;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	color: #FFF;
+}
+
+p{
+	text-align: justify;
+}
+.button{
+	width: 7em;
+	height: 2.5em;
+	border-radius: 0.5em;
+	background-color: #008182;
+	text-align: center;
+	padding-top: 0.5em;
+
+}
+a{
+	text-decoration: none;
+	color: #FFF;
+		font-size: 1rem;
+
+
+}
+footer{
+	background-color: #008182;
+	height: 5em;
+	text-align: center;
+	padding-top: 2em;
+}
